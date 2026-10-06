@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ใบบุญ จันทกานต์ เพิ่มบุญมา | พอร์ตโฟลิโอ & เรซูเม่</title>
+  <meta name="description" content="เว็บไซต์พอร์ตโฟลิโอและเรซูเม่ของ ใบบุญ (จันทกานต์ เพิ่มบุญมา) สำหรับสมัครงานด้านดิจิทัลและเทคโนโลยี">
+  
+  <!-- ฟอนต์ Google Fonts: Mali (หัวข้อ) และ Sarabun (เนื้อหา) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- สไตล์หลัก -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- คอนเทนเนอร์สำหรับตุ๊กตาหมาเด้งตอนคลิก (ไม่บังการคลิก) -->
+  <div id="dog-pop-container" class="dog-pop-container" aria-hidden="true"></div>
+
+  <!-- แถบนำทางด้านบน (Sticky Nav) -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="กลับสู่หน้าแรก">
+        <span class="logo-paw" aria-hidden="true">🐾</span>
+        <span class="logo-text">Baiboon</span>
+      </a>
+      <nav class="nav-menu" aria-label="เมนูหลัก">
+        <a href="#about" class="nav-link">แนะนำตัว</a>
+        <a href="#education" class="nav-link">การศึกษา</a>
+        <a href="#portfolio" class="nav-link">ผลงาน</a>
+        <a href="#contact" class="nav-link">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==============================================
+       มุมมองหน้าหลัก (Main View)
+       ============================================== -->
+  <main id="main-view" class="main-view">
+    
+    <!-- 1. ส่วนหัว (Hero Section) -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-badge">พอร์ตโฟลิโอ & เรซูเม่ 🐾</div>
+        <h1 class="hero-title">สวัสดีค่ะ ใบบุญ จันทกานต์ เพิ่มบุญมา</h1>
+        <p class="hero-desc">
+          กำลังมองหาโอกาสในการทำงาน สนใจงานด้านดิจิทัลและเทคโนโลยี ชอบลงมือทำ ชอบเรียนรู้สิ่งใหม่ๆ และทำงานร่วมกับทีมได้ดี
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-capsule">ติดต่อฉัน</a>
+        </div>
+        <p class="hero-hint">ลองคลิกตรงไหนก็ได้บนหน้าเว็บดูนะ 🐶</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr class="section-divider" aria-hidden="true">
+    </div>
+
+    <!-- 2. แนะนำตัว (About Section) -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <svg class="paw-icon paw-dog" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 11c-2.3 0-4.5 1.5-4.5 4.5 0 2.2 2 4.5 4.5 4.5s4.5-2.3 4.5-4.5c0-3-2.2-4.5-4.5-4.5z"/>
+            <circle cx="6.5" cy="9.5" r="2.2"/>
+            <circle cx="10" cy="5.8" r="2.2"/>
+            <circle cx="14" cy="5.8" r="2.2"/>
+            <circle cx="17.5" cy="9.5" r="2.2"/>
+          </svg>
+          แนะนำตัว
+        </h2>
+
+        <div class="about-grid">
+          <!-- คอลัมน์ 1: เกี่ยวกับฉัน -->
+          <div class="card about-card">
+            <h3 class="card-subtitle">เกี่ยวกับฉัน</h3>
+            <p class="about-text">
+              ชื่อจริง จันทกานต์ เพิ่มบุญมา ชื่อเล่น ใบบุญ สนใจด้านดิจิทัลและเทคโนโลยี มีประสบการณ์ทำกิจกรรมทั้งสายสร้างสรรค์และสายกีฬา พร้อมเรียนรู้และลงมือทำงานจริง
+            </p>
+          </div>
+
+          <!-- คอลัมน์ 2: ทักษะความสามารถ -->
+          <div class="card skills-card">
+            <h3 class="card-subtitle">ทักษะความสามารถ</h3>
+            <div class="skills-list">
+              <span class="skill-tag tag-dog">Python</span>
+              <span class="skill-tag tag-cat">LINE Chatbot</span>
+              <span class="skill-tag tag-dog">Gen AI</span>
+              <span class="skill-tag tag-cat">3D Game</span>
+              <span class="skill-tag tag-dog">งานศิลปะ</span>
+              <span class="skill-tag tag-cat">ภาวะผู้นำ</span>
+              <span class="skill-tag tag-dog">ทำงานเป็นทีม</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr class="section-divider" aria-hidden="true">
+    </div>
+
+    <!-- 3. การศึกษา (Education Section) -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <svg class="paw-icon paw-cat" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 11c-2.3 0-4.5 1.5-4.5 4.5 0 2.2 2 4.5 4.5 4.5s4.5-2.3 4.5-4.5c0-3-2.2-4.5-4.5-4.5z"/>
+            <circle cx="6.5" cy="9.5" r="2.2"/>
+            <circle cx="10" cy="5.8" r="2.2"/>
+            <circle cx="14" cy="5.8" r="2.2"/>
+            <circle cx="17.5" cy="9.5" r="2.2"/>
+          </svg>
+          การศึกษา
+        </h2>
+
+        <div class="card timeline-card">
+          <div class="timeline-container">
+            <!-- แถวที่ 1: ประวัติการศึกษาปัจจุบัน -->
+            <div class="timeline-row">
+              <div class="timeline-marker">
+                <span class="marker-dot marker-dog" aria-hidden="true"></span>
+              </div>
+              <div class="timeline-details">
+                <div class="timeline-header-wrap">
+                  <h3 class="timeline-institution">มหาวิทยาลัยเชียงใหม่</h3>
+                  <span class="timeline-status-tag">ปัจจุบัน</span>
+                </div>
+                <p class="timeline-major">สาขา DII (Digital Industry Integration)</p>
+              </div>
+            </div>
+
+            <!-- แถวที่ 2: ช่องว่างสำหรับเพิ่มประวัติการศึกษาอื่น -->
+            <div class="timeline-row timeline-row-empty">
+              <div class="timeline-marker">
+                <span class="marker-dot marker-cat" aria-hidden="true"></span>
+              </div>
+              <div class="timeline-details">
+                <div class="timeline-header-wrap">
+                  <h3 class="timeline-institution text-placeholder">[ชื่อสถาบันการศึกษา]</h3>
+                  <span class="timeline-status-tag tag-placeholder">ระดับ / ปีการศึกษา</span>
+                </div>
+                <p class="timeline-major text-placeholder">[ระดับ / สาขาวิชา เช่น มัธยมศึกษา หรืออื่นๆ]</p>
+                <span class="timeline-edit-hint">✎ จุดสำหรับเพิ่มประวัติการศึกษาเพิ่มเติมในอนาคต</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr class="section-divider" aria-hidden="true">
+    </div>
+
+    <!-- 4. ผลงานและประสบการณ์ (Portfolio & Experience Section) -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <svg class="paw-icon paw-dog" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 11c-2.3 0-4.5 1.5-4.5 4.5 0 2.2 2 4.5 4.5 4.5s4.5-2.3 4.5-4.5c0-3-2.2-4.5-4.5-4.5z"/>
+            <circle cx="6.5" cy="9.5" r="2.2"/>
+            <circle cx="10" cy="5.8" r="2.2"/>
+            <circle cx="14" cy="5.8" r="2.2"/>
+            <circle cx="17.5" cy="9.5" r="2.2"/>
+          </svg>
+          ผลงานและประสบการณ์
+        </h2>
+        <p class="section-desc">คลิกที่การ์ดเพื่อดูรายละเอียดเพิ่มเติมและรูปภาพผลงาน 🐾</p>
+
+        <!-- กริดการ์ดผลงาน (สร้างแบบไดนามิกจาก script.js) -->
+        <div id="portfolio-grid" class="portfolio-grid">
+          <!-- JavaScript จะนำข้อมูลจาก portfolioData มาสร้างการ์ดตรงนี้ -->
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr class="section-divider" aria-hidden="true">
+    </div>
+
+    <!-- 5. ติดต่อ (Contact Section) -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">
+          <svg class="paw-icon paw-cat" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 11c-2.3 0-4.5 1.5-4.5 4.5 0 2.2 2 4.5 4.5 4.5s4.5-2.3 4.5-4.5c0-3-2.2-4.5-4.5-4.5z"/>
+            <circle cx="6.5" cy="9.5" r="2.2"/>
+            <circle cx="10" cy="5.8" r="2.2"/>
+            <circle cx="14" cy="5.8" r="2.2"/>
+            <circle cx="17.5" cy="9.5" r="2.2"/>
+          </svg>
+          ติดต่อ
+        </h2>
+
+        <div class="card contact-card">
+          <p class="contact-intro">
+            ยินดีที่ได้รู้จักค่ะ! หากสนใจร่วมงาน หรือพูดคุยแลกเปลี่ยน สามารถติดต่อใบบุญได้ผ่านช่องทางด้านล่างนี้เลยนะคะ 🐱🐾
+          </p>
+          <div class="contact-grid">
+            <!-- Gmail -->
+            <a href="mailto:jtkpbmbb5453@gmail.com" class="contact-item contact-item-dog">
+              <div class="contact-icon-bubble" aria-hidden="true">✉️</div>
+              <div class="contact-text-wrap">
+                <span class="contact-type">Gmail</span>
+                <span class="contact-val">jtkpbmbb5453@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- เบอร์โทรศัพท์ -->
+            <a href="tel:0966817422" class="contact-item contact-item-cat">
+              <div class="contact-icon-bubble" aria-hidden="true">📞</div>
+              <div class="contact-text-wrap">
+                <span class="contact-type">เบอร์โทรศัพท์</span>
+                <span class="contact-val">096-681-7422</span>
+              </div>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/xxxxxxxx" target="_blank" rel="noopener noreferrer" class="contact-item contact-item-dog">
+              <div class="contact-icon-bubble" aria-hidden="true">📸</div>
+              <div class="contact-text-wrap">
+                <span class="contact-type">Instagram</span>
+                <span class="contact-val">xxxxxxxx</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================
+       หน้ารายละเอียดผลงาน (Detail View - Single Page Hash Routing)
+       สลับการแสดงผลโดยไม่ต้องรีเฟรชหน้าเว็บ
+       ============================================== -->
+  <section id="detail-view" class="detail-view" style="display: none;" aria-live="polite">
+    <div class="container detail-container">
+      <div class="detail-nav-bar">
+        <a href="#portfolio" class="btn btn-back" id="back-button">
+          <span aria-hidden="true">←</span> กลับไปหน้าผลงาน
+        </a>
+      </div>
+
+      <article class="card detail-content-card">
+        <header class="detail-header">
+          <div class="detail-icon" id="detail-icon" aria-hidden="true"></div>
+          <h1 class="detail-title" id="detail-title"></h1>
+          <p class="detail-summary" id="detail-summary"></p>
+        </header>
+
+        <section class="detail-block">
+          <h2 class="detail-section-title">
+            <span class="paw-bullet" aria-hidden="true">🐾</span> แกลเลอรี่รูปภาพ
+          </h2>
+          <div class="detail-gallery-grid" id="detail-gallery">
+            <!-- รูปภาพ หรือ ช่องสี่เหลี่ยมเส้นประ "ใส่รูปผลงานตรงนี้" 3 ช่อง -->
+          </div>
+        </section>
+
+        <section class="detail-block">
+          <h2 class="detail-section-title">
+            <span class="paw-bullet" aria-hidden="true">🐾</span> รายละเอียด
+          </h2>
+          <div class="detail-body-text" id="detail-body">
+            <!-- รายละเอียดเพิ่มเติมของผลงาน -->
+          </div>
+        </section>
+      </article>
+    </div>
+  </section>
+
+  <!-- 6. ท้ายหน้า (Footer) -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-love">ทำด้วยความรัก หมาและแมว 🐶🐱</p>
+      <p class="footer-copy">© ใบบุญ จันทกานต์ เพิ่มบุญมา | พอร์ตโฟลิโอ & เรซูเม่</p>
+    </div>
+  </footer>
+
+  <!-- สคริปต์หลัก -->
+  <script src="script.js"></script>
+</body>
+</html>
